@@ -1,0 +1,39 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "loadBalancers_lb1_name": {
+            "value": null
+        },
+        "natGateways_NATGW1_name": {
+            "value": null
+        },
+        "virtualMachines_AZ1_name": {
+            "value": null
+        },
+        "virtualMachines_AZ2_name": {
+            "value": null
+        },
+        "sshPublicKeys_AZ1_key_name": {
+            "value": null
+        },
+        "virtualNetworks_VNet1_name": {
+            "value": null
+        },
+        "networkInterfaces_az12_name": {
+            "value": null
+        },
+        "networkInterfaces_az2999_name": {
+            "value": null
+        },
+        "publicIPAddresses_pip_lb1_name": {
+            "value": null
+        },
+        "networkSecurityGroups_NSG1_name": {
+            "value": null
+        },
+        "publicIPAddresses_pip_NATGW1_name": {
+            "value": null
+        }
+    }
+}
