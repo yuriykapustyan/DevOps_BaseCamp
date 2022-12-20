@@ -1,0 +1,5 @@
+Credentials.json
+*.plan
+.terraform*
+.terraform.lock.hcl
+terraform.tfstate*
