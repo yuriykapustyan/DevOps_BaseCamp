@@ -1,0 +1,14 @@
+---
+- name: Create empty file
+  become: true
+  hosts: iaac
+  roles:
+    - create_empty_file
+
+- name: Fetch disto name and version
+  hosts: all
+  gather_facts: yes
+  tasks:
+    - name: Fetch distro name and version
+      debug:
+        msg: "Hostname={{ ansible_facts['nodename'] }} Distribution={{ ansible_facts['distribution'] }} Version={{ ansible_facts['distribution_version'] }}"

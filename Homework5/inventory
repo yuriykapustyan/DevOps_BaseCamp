@@ -1,0 +1,11 @@
+exec003 ansible_host=ec2-44-201-81-248.compute-1.amazonaws.com ansible_user=ansible ansible_ssh_private_key_file=/home/yuriykapustyan/.ssh/myAWSKey001.pem
+
+[group1]
+exec001 ansible_host=ec2-54-163-64-156.compute-1.amazonaws.com ansible_user=ansible ansible_ssh_private_key_file=/home/yuriykapustyan/.ssh/myAWSKey001.pem
+
+[group2]
+exec002 ansible_host=ec2-34-226-154-36.compute-1.amazonaws.com ansible_user=ansible ansible_ssh_private_key_file=/home/yuriykapustyan/.ssh/myAWSKey001.pem
+
+[iaac:children]
+group1
+group2
