@@ -1,1 +1,0 @@
-This module provisions AWS instance.
