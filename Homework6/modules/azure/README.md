@@ -1,0 +1,1 @@
+This module provisions Azure instance.
