@@ -1,5 +1,5 @@
 variable "resource_group_location" {
-  description = "Location of the resource group"
+  description = "Resource group location"
   type        = string
   default     = "eastus"
 }
@@ -22,26 +22,50 @@ variable "virtual_network_subnet_name" {
   default     = "sub-hw6-1"
 }
 
-variable "azure_vm_name" {
+variable "vm_name" {
   description = "Virtual machine name"
   type        = string
   default     = "vm-hw6-1"
 }
 
-variable "azure_vm_size" {
+variable "vm_size" {
   description = "Virtual machine size"
   type        = string
   default     = "Standard_B1s"
 }
 
-variable "azure_public_ip_name" {
+variable "public_ip_name" {
   description = "Public ip name"
   type        = string
   default     = "pip-hw6-1"
 }
 
-variable "azure_nic_name" {
+variable "nic_name" {
   description = "NIC name"
   type        = string
   default     = "nic-hw6-1"
+}
+
+variable "nsg_name" {
+  description = "Network security group name"
+  type        = string
+  default     = "nsg-hw6-1"
+}
+
+variable "vm_admin_username" {
+  description = "Virtual machine admin username"
+  type        = string
+  default     = "azureadmin"
+}
+
+variable "user_data" {
+  description = "Source user_data"
+  type        = string
+  default     = "user_data/install_grafana.sh"
+}
+
+variable "public_key" {
+  description = "Source public key"
+  type        = string
+  default     = "~/.ssh/id_rsa.pub"
 }

@@ -20,3 +20,15 @@ variable "team_name" {
   type        = string
   default     = "DevOps"
 }
+
+variable "public_key" {
+  description = "Source public key"
+  type        = string
+  default     = "~/.ssh/id_rsa.pub"
+}
+
+variable "key_name" {
+  description = "Key name"
+  type        = string
+  default     = "id_rsa"
+}

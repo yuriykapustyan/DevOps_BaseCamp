@@ -1,7 +1,7 @@
 provider "aws" {
   #access_key = "Your access_key"
   #secret_key = "Your secret_key"
-  region     = "us-east-1"
+  region = "us-east-1"
 }
 
 provider "azurerm" {
