@@ -5,19 +5,26 @@
 
 ## Want to try this project?
 ### You need to have:
-git
-ssh public key
-[terraform](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
-Azure accout
-AWS account
+- [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+
+- [ssh public key](https://www.ssh.com/academy/ssh/keygen)
+
+- [terraform](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
+
+- [Azure accout](https://azure.microsoft.com/en-us/free/)
+
+- [AWS account](https://aws.amazon.com/free/?all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Types=*all&awsf.Free%20Tier%20Categories=*all)
 
 `git clone https://github.com/yuriykapustyan/DevOps_BaseCamp.git` 
 `cd DevOps_BaseCamp/Homework6`
 
 
 `terraform init`
+
 `terraform validate`
+
 `terrafrom plan`
+
 `terraform apply`
 
 `ssh -i ~/.ssh/id_rsa xxx@<instance_public_ip>`
