@@ -42,8 +42,6 @@ Apply it to deploy the instances:
 
 You should see the message like this:
 
-Output public ip:
-
 ![image](https://user-images.githubusercontent.com/12457843/210130632-751edbd2-de6d-4371-a790-625b9095aa37.png)
 
 To connect to the instance via ssh:
