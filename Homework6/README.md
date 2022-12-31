@@ -1,4 +1,5 @@
 # Terraform modules AWS and Azure
+This Terraform project deploys one AWS and one Azure instances with [Grafana](https://grafana.com) installed.
 
 ##### URL AWS Grafana instance: http://44.212.44.171
 ##### URL Azure Azure instance: http://172.174.49.141
