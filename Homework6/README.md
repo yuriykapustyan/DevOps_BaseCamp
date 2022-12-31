@@ -1,10 +1,10 @@
-Terraform modules AWS and Azure
+# Terraform modules AWS and Azure
 
-URL AWS Grafana instance: http://44.212.44.171
-URL Azure Azure instance: http://172.174.49.141
+## URL AWS Grafana instance: http://44.212.44.171
+## URL Azure Azure instance: http://172.174.49.141
 
-Want to try this project?
-You need to have:
+## Want to try this project?
+### You need to have:
 git
 ssh public key
 terraform
