@@ -16,6 +16,7 @@
 - [AWS account](https://aws.amazon.com/free/?all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Types=*all&awsf.Free%20Tier%20Categories=*all)
 
 Then, open terminal and execute commands:
+
 `git clone https://github.com/yuriykapustyan/DevOps_BaseCamp.git` 
 `cd DevOps_BaseCamp/Homework6`
 
