@@ -21,7 +21,7 @@ Then, open terminal and execute commands:
 
 `cd DevOps_BaseCamp/Homework6`
 
-Put your access and secrete keys, uncomment the lines in provider.tf file.
+Put your access and secrete keys, uncomment the lines in providers.tf file.
 
 Initiate Terraform:
 
