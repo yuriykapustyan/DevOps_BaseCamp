@@ -17,7 +17,7 @@ This Terraform project deploys one AWS and one Azure instances with [Grafana](ht
 - [AWS account](https://aws.amazon.com/free/?all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Types=*all&awsf.Free%20Tier%20Categories=*all)
 
 
-#### Then, play with it
+#### Then, play with it:
 
 Open terminal and execute commands:
 
