@@ -7,7 +7,7 @@
 ### You need to have:
 git
 ssh public key
-terraform
+[terraform](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
 Azure accout
 AWS account
 
