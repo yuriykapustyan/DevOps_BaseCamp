@@ -11,18 +11,18 @@ terraform
 Azure accout
 AWS account
 
-git clone 
-cd
+`git clone https://github.com/yuriykapustyan/DevOps_BaseCamp.git` 
+`cd DevOps_BaseCamp/Homework6`
 
 
-terraform init
-terraform validate
-terrafrom plan
-terraform apply
+`terraform init`
+`terraform validate`
+`terrafrom plan`
+`terraform apply`
 
-ssh -i ~/.ssh/id_rsa xxx@<instance_public_ip>
+`ssh -i ~/.ssh/id_rsa xxx@<instance_public_ip>`
 
-terraform destroy
+`terraform destroy`
 
 Output public ip:
 
