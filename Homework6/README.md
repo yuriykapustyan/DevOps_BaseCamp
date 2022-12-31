@@ -5,7 +5,7 @@ This Terraform project deploys one AWS and one Azure instances with [Grafana](ht
 ##### URL Azure Azure instance: http://172.174.49.141
 
 ## Want to try this project?
-### You need to have:
+#### You need to have:
 - [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
 - [ssh public key](https://www.ssh.com/academy/ssh/keygen)
@@ -17,7 +17,9 @@ This Terraform project deploys one AWS and one Azure instances with [Grafana](ht
 - [AWS account](https://aws.amazon.com/free/?all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Types=*all&awsf.Free%20Tier%20Categories=*all)
 
 
-Then, open terminal and execute commands:
+#### Then, play with it
+
+Open terminal and execute commands:
 
 `git clone https://github.com/yuriykapustyan/DevOps_BaseCamp.git` 
 
